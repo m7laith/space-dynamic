@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Space Dynamic</title>
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="https://m7laith.github.io/space-dynamic/">
+        <h1>SPAC<span>DYNA</span></h1>
+      </a>
+
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Now</a></li>
+      </ul>
+    </nav>
+    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+    <div class="home" id="home">
+      <div class="container-home">
+        <div class="home-text">
+          <h6>Welcome to Space Dynamic</h6>
+          <h1>
+            We Make <span class="span-green">Digital Ideas</span> &
+            <span class="span-red">SEO</span> Marketing
+          </h1>
+          <p>
+            Space Dynamic is a professional looking HTML template using a
+            Bootstrap 5 (beta 2). This CSS template is free for you provided by
+            <a href="https://m7laith.github.io/space-dynamic/">TemplateMo</a>.
+          </p>
+          <div class="analyze-box">
+            <input type="text" placeholder="Your website URL..." required />
+            <button
+              type="button"
+              onclick="window.location.href='https://m7laith.github.io/space-dynamic/'"
+            >
+              Analyze Site
+            </button>
+          </div>
+        </div>
+        <div class="home-img">
+          <img src="home-img.png" alt="home img" />
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container-about">
+        <img src="bg-img.png" alt="about img" class="about-img" />
+        <div class="boxs-container">
+          <div class="box">
+            <img src="data analysis.png" />
+            <div class="text-box">
+              <h3>Data Analysis</h3>
+              <p>
+                We provide innovative solutions for data analysis to help
+                businesses make informed decisions.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="Data Reporting.png" />
+            <div class="text-box">
+              <h3>Data Reporting</h3>
+              <p>
+                Our data reporting services deliver clear and actionable
+                insights to drive business growth.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="SEO Suggestions.png" />
+            <div class="text-box">
+              <h3>SEO Suggestions</h3>
+              <p>
+                We offer expert SEO suggestions to enhance your online presence
+                and improve search engine rankings.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="Web Analytics.png" />
+            <div class="text-box">
+              <h3>Web Analytics</h3>
+              <p>
+                Our web analytics services help you understand user behavior and
+                optimize your website performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <div class="container-services">
+        <img src="services-img.png" alt="services bg" class="services-bg" />
+        <div class="services-text">
+          <div class="text-box-services">
+            <h2>
+              Grow your website with our
+              <span class="span-green">SEO</span> service &
+              <span class="span-red">Project</span> Ideas
+            </h2>
+            <p>
+              Space Dynamic HTML5 template is free to use for your website
+              projects. However, you are not permitted to redistribute the
+              template ZIP file on any CSS template collection websites. Please
+              contact us for more information. Thank you for your kind
+              cooperation.
+            </p>
+          </div>
+          <div class="progress-bars">
+            <h4>Web analysis<span class="span90">90%</span></h4>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="progress-bars">
+            <h4>SEO Reports<span class="span80">80%</span></h4>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="progress-bars">
+            <h4>Page Optimizations<span class="span85">85%</span></h4>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+      <div class="container-portfolio">
+        <h2>
+          See What Our Agency <span class="span-green">Offers</span> & What We
+          <span class="span-red">Provide</span>
+        </h2>
+        <div class="portfolio-cards">
+          <div class="viable-card">
+            <div class="image"><img src="seo-analysis.jpg" alt="" /></div>
+            <div class="hidden-card">
+              <h3>SEO analysis</h3>
+              <p>
+                Identify strengths, weaknesses, and opportunities for
+                improvement.
+              </p>
+            </div>
+          </div>
+          <div class="viable-card">
+            <div class="image"><img src="data-analysis.jpg" alt="" /></div>
+            <div class="hidden-card">
+              <h3>Data analysis</h3>
+              <p>Extract insights from data to inform business decisions.</p>
+            </div>
+          </div>
+          <div class="viable-card">
+            <div class="image"><img src="web-reporting.jpg" alt="" /></div>
+            <div class="hidden-card">
+              <h3>Website reporting</h3>
+              <p>Generate reports on website performance and user behavior.</p>
+            </div>
+          </div>
+          <div class="viable-card">
+            <div class="image">
+              <img src="performance-testing.jpg" alt="" />
+            </div>
+            <div class="hidden-card">
+              <h3>Performance tests</h3>
+              <p>
+                Evaluate website speed, responsiveness, and overall performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container-contact">
+        <div class="contact-text">
+          <h2>Feel Free To Send Us a Message About Your Website Needs</h2>
+          <p>
+            If you have any questions or would like to learn more about our
+            services, please don't hesitate to contact us. We're here to help
+            you achieve your digital goals.
+          </p>
+          <h4>
+            For any enquiry, Call Us:
+            <i
+              onclick="window.location.href='https://m7laith.github.io/space-dynamic/'"
+              class="fa fa-phone"
+            ></i>
+            <p
+              onclick="window.location.href='https://m7laith.github.io/space-dynamic/'"
+            >
+              +20-155-962-9556
+            </p>
+          </h4>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <div class="name-surname">
+              <input type="text" placeholder="Name" required />
+              <input type="surname" placeholder="Surname" required />
+            </div>
+            <input type="email" placeholder="E-mail" required />
+            <textarea placeholder="Message" required></textarea>
+            <button
+              type="button"
+              onclick="window.location.href='https://m7laith.github.io/space-dynamic/'"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        Copyright &copy; 2025 Space Dynamic Co., Ltd. All Rights Reserved.
+        <br /><i
+          class="fa-brands fa-whatsapp"
+          onclick="window.open('https://wa.me/201559629556', '_blank')"
+        ></i>
+        Mahmoud Essam
+      </p>
+    </div>
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById("nav-links");
+        const overlay = document.getElementById("overlay");
+
+        nav.classList.toggle("active");
+        overlay.classList.toggle("active");
+      }
+
+      function closeMenu() {
+        document.getElementById("nav-links").classList.remove("active");
+        document.getElementById("overlay").classList.remove("active");
+      }
+
+      document.querySelectorAll("#nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          closeMenu();
+        });
+      });
+    </script>
+  </body>
+</html>
